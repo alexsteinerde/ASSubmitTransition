@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ASSubmitTransition_Example' do
+  pod 'ASSubmitTransition', :path => '../'
+
+  target 'ASSubmitTransition_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
